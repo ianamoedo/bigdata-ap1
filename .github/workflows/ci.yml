@@ -28,9 +28,9 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B compile --file pom.xml
+      run: mvn -B compile --file /home/runner/work/bigdata-ap1/bigdata-ap1/pom.xml
       
     - name: Running unit tests with Maven
-      run: mvn -B test --file pom.xml
+      run: mvn -B test --file /home/runner/work/bigdata-ap1/bigdata-ap1/pom.xml
 
    
